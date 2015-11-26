@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{locale}">
+ <head>
+    <title>
+      {+title/}
+    </title>
+    {>"metainfo"/}
+    <!-- <script src="{@cdn type="javascript" file="library/external/adrum.js" /}"></script> -->
+  </head>
+  <body>
+    <div>
+      {+main/}
+    </div>
+  </body>
+</html>

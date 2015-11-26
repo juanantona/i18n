@@ -1,0 +1,10 @@
+{>"layout" /}
+{<title}i18n{/title}
+
+{<main}
+<div>  
+	
+	Welcome to Dust, {name}
+
+</div>
+{/main}
