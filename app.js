@@ -17,6 +17,13 @@ app.set('view engine', 'dust');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(function i18nMiddleware(req, res, next) {
+  var languageBrowser = req.headers['accept-language']
+  console.log(languageBrowser);
+  next();
+});
+
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
