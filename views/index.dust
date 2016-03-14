@@ -7,7 +7,7 @@
     <p>{#locale_helper} default text {/locale_helper}</p>
 
 	<p> Welcome to Dust, {name} </p>
-	<p> Locale is: {locale} </p>
+	<p> Locale is (cherry-picking test): {locale} </p>
 
 </div>
 {/main}
