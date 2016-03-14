@@ -4,7 +4,7 @@
 {<main}
 <div>  
 	
-    <p>{#locale_helper} default text {/locale_helper}</p>
+    <p>{#locale_helper} default text (cherry-picking test) {/locale_helper}</p>
 
 	<p> Welcome to Dust, {name} </p>
 	<p> Locale is (cherry-picking test) (second commit cherry-picking test): {locale} </p>
