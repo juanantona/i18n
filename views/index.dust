@@ -9,5 +9,7 @@
 	<p> Welcome to Dust, {name} </p>
 	<p> Locale is (cherry-picking test) (second commit cherry-picking test): {locale} </p>
 
+	<p> Cherry-picking 2 test </p>
+
 </div>
 {/main}
